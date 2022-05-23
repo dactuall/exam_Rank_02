@@ -7,11 +7,24 @@ int	main(int	argc, char	**argv)
 	i = 0;
 	if (argc == 1)
 	{
+		printf("TESTS:\n\n");
 		printf("Test putstr() run:\n./lvl1test 1\n\n");
 		printf("Test fizzbuzz() run:\n./lvl1test 2\n\n");
 		printf("Test ft_strlen() run:\n./lvl1test 3\n\n");
 		printf("Test ft_strcpy() run:\n./lvl1test 4\n\n");
 		printf("Test ft_swap() run:\n./lvl1test 5\n\n");
+
+		printf("Test argvSubject:\ncd argvSubject/\n\n");
+
+		printf("Test first_word.c:\ngcc first_word.c && ./a.out first\n\n");
+		printf("Test repeat_alpha.c\ngcc repeat_alpha.c && ./a.out aAbBcCdDeE\n\n");
+		printf("Test rev_print.c\ngcc rev_print.c && ./a.out Bambuk\n\n");
+		printf("Test rot_13.c\ngcc rot_13.c && ./a.out amAMnNzZ\n\n");
+		printf("Test rotone.c\ngcc rotone.c && ./a.out aAbBcCzZ\n\n");
+		printf("Test search_and_replace.c\ngcc search_and_replace.c && ./a.out Bambuk b z\n\n");
+		printf("Test ulstr.c\ngcc ulstr.c && ./a.out AAAaaaAAAaaaZZZzzzZZZzzz\n");
+
+		printf("finish\n");
 	}
 	if (argc == 2)
 	{
